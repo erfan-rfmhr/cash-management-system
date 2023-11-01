@@ -32,6 +32,8 @@ THIRD_PARTY_APPS = [
     'rest_framework',
     'drf_spectacular',
     'debug_toolbar',
+    'djoser',
+    'rest_framework_simplejwt',
 ]
 
 LOCAL_APPS = [
