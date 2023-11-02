@@ -5,7 +5,7 @@ User = get_user_model()
 
 
 class TransactionModel(models.Model):
-    user = models.ForeignKey(User, on_delete=models.SET_NULL)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='transactions', verbose_name=('user',))
     amount = models.DecimalField(max_digits=10, decimal_places=2)
     type = models.CharField(max_length=50)
     category = models.CharField(max_length=50)
