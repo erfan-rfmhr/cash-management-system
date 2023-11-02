@@ -154,4 +154,5 @@ SPECTACULAR_SETTINGS = {
     'DESCRIPTION': 'API for Cash Management',
     'VERSION': '0.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
+    'SCHEMA_PATH_PREFIX': r'/api/',
 }
