@@ -148,6 +148,14 @@ SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(hours=1),
 }
 
+# DJOSER
+DJOSER = {
+    'SERIALIZERS': {
+        'user': 'core.serializers.CoreUserSerializer',
+        'current_user': 'core.serializers.CoreUserSerializer',
+    },
+}
+
 # Swagger
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Cash Management API',
