@@ -24,6 +24,7 @@ urlpatterns = [
     path('api/auth/', include('djoser.urls')),
     path('api/auth/token/', include('djoser.urls.jwt')),
     path('api/', include('transactions.urls')),
+    path('api/reports/', include('reports.urls')),
 ]
 
 if settings.DEBUG:
