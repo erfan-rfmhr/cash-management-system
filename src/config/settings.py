@@ -40,6 +40,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     'core.apps.CoreConfig',
     'transactions.apps.TransactionsConfig',
+    'reports.apps.ReportsConfig',
 ]
 
 INSTALLED_APPS = [
